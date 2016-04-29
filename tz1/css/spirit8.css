@@ -5,7 +5,11 @@ p,a,div {
 wraper {
     width: 100%;
 }
-
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 header {
     margin: 0 auto;
     width: auto;
@@ -52,13 +56,13 @@ nav a:hover {
 .text_welcom p {
     display: inline;
 }
-.text_welcom__weight {
+.text__weight {
   font-weight: 900;
 }
-.text_welcom__size {
+.text__size {
   font-size: 36px;
 }
-.text_welcom__color {
+.text__color {
   color: yellow;
 }
 
@@ -73,6 +77,29 @@ nav a:hover {
 
 /* SECTION 1 */
 
-section {
-  
+.about_us {
+  margin: 0 auto;
+  padding: 0 10%;
+  background-color: white;
+}
+.pc_image {
+  width: 55%;
+  height: 55%;
+  padding: 6% 10% 14% 10%;
+  float: left;
+  margin: -5% 0 0 -18%;
+  background-image: url(../img/PC.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.display_image {
+  padding: 31% 31%;
+  background-image: url(../img/inPC.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 62%;
+}
+.about_text {
+  padding-top: 7%;
 }
