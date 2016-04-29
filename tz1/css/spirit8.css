@@ -1,9 +1,15 @@
+p,a,div {
+    	font-family: Arial, Tahoma, sans-serif;
+}
+
 wraper {
     width: 100%;
 }
 
 header {
+    margin: 0 auto;
     width: 80%;
+    text-align: center;
     background-color: black;
 }
 .text_logo {
@@ -21,15 +27,19 @@ nav a {
     color: white;
 }
 .text_welcom {
-    margin: 0 auto;
+    padding:180px 0;
     text-align: center;
 }
 .text_welcom p {
+    display: inline;
     color: white;
 }
 
 .circle_arrow {
-    margin: 0 auto;
+    display: inline-block;
+    margin: 85px 0;
     padding: 15px;
+    width: 0;
+    border-radius: 16px;
     border:2px solid white;
 }
