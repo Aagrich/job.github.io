@@ -79,7 +79,7 @@ nav a:hover {
 
 }
 
-/* S E C T I O N   1 */
+/* S E C T I O N   #1 */
 
 .about_us {
   margin: 0 auto;
@@ -145,4 +145,51 @@ nav a:hover {
     background-color: white;
 }
 
-/*S E C T I O N   2 */
+/* S E C T I O N   #2 */
+.team {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.team_header {
+    display: inline-block;
+    margin-top: 7%;
+    padding-bottom: 2%;
+    color: white;
+}
+.about__team {
+
+}
+.teamate_profile {
+    display: inline-block;
+    margin: 0 25px;
+    padding-top: 100px;
+    width: 16%;
+    text-align: center;
+    color: white;
+}
+.teamate_profile::before {
+    content: "";
+    display: block;
+    margin: 35px auto;
+    padding: 80px 80px;
+    width: 0;
+    border-radius: 80px;
+    background-color: lightgrey;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teamate_name {
+    font-weight: 900;
+    font-size: 24px;
+}
+.teamate_about {
+    font-size: 20px;
+}
+.teamate_subscribe {
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+/* S E C T I O N   #3 */
