@@ -79,7 +79,7 @@ nav a:hover {
 
 }
 
-/* SECTION 1 */
+/* S E C T I O N   1 */
 
 .about_us {
   margin: 0 auto;
@@ -123,3 +123,26 @@ nav a:hover {
     font-size: 20px;
     color: grey;
 }
+.about ul{
+    margin: 35px 0;
+}
+.about li {
+    margin: 10px 0;
+    font-style: italic;
+    color: grey;
+}
+.about li:before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    border: 7px double black;
+    border-radius: 7px;
+}
+.about button {
+    padding: 15px 25px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: white;
+}
+
+/*S E C T I O N   2 */
