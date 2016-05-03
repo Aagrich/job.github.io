@@ -30,6 +30,9 @@ hr::after {
   border: 0;
   background-color: orange;
 }
+
+/* H E A D E R */
+
 header {
     margin: 0 auto;
     width: auto;
@@ -94,7 +97,7 @@ nav a:hover {
     border:2px solid white;
 }
 .circle_arrow:hover {
-    border-color: yellow;
+    border-color: orange;
 
 }
 
@@ -165,6 +168,7 @@ nav a:hover {
 }
 
 /* S E C T I O N   #2 */
+
 .team {
     background-color: black;
     text-align: center;
@@ -207,6 +211,7 @@ nav a:hover {
 }
 
 /* S E C T I O N   #3 */
+
 .our_work {
   padding: 5%;
   text-align: center;
@@ -232,7 +237,7 @@ nav a:hover {
     width: 120px;
     padding: 30px 0;
     border-radius: 80px;
-    border: 6px solid yellow;
+    border: 6px solid orange;
 }
 .serv_name {
     font-weight: 900;
@@ -241,4 +246,23 @@ nav a:hover {
 .serv_subscribe {
     margin: 25px 0;
     font-size: 18px;
+}
+
+/* S E C T I O N   #4 */
+
+.our_clients {
+  padding: 5%;
+  text-align: center;
+  background-color: black;
+}
+.client_header {
+  padding-bottom: 20px;
+  font-size: 36px;
+  color: white;
+}
+.client_brand {
+  margin: 0 auto;
+}
+.client_brand img {
+  margin: 2%;
 }
