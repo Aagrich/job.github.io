@@ -102,13 +102,17 @@ nav a:hover {
 .about_us {
   margin: 0 auto;
   padding: 0 10%;
-  background-color: white;
 }
+.shadow_image {
+  background-image: url(../img/shadow.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50%;
+  padding: 10% 25%;
+}
+/*
 .pc_image {
-  width: 55%;
-  height: 55%;
-  padding: 6% 10% 14% 10%;
-  float: left;
+
   margin: -5% 0 0 -18%;
   background-image: url(../img/PC.png);
   background-repeat: no-repeat;
@@ -121,10 +125,9 @@ nav a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 62%;
-}
+} */
 .about {
-  padding-top: 7%;
-  margin-left: 60%;
+  margin: -15% 0 0 45%;
 }
 .header__about {
     font-size: 22px;
@@ -209,7 +212,7 @@ nav a:hover {
 /* S E C T I O N   #3 */
 
 .our_services {
-  padding: 5%;
+  padding: 5% 10%;
   text-align: center;
 }
 .serv_header {
@@ -247,7 +250,7 @@ nav a:hover {
 /* S E C T I O N   #4 */
 
 .our_clients {
-  padding: 5%;
+  padding: 5% 10%;
   text-align: center;
   background-color: black;
 }
@@ -266,7 +269,7 @@ nav a:hover {
 /* S E C T I O N    #5 */
 
 .our_work {
-  padding: 5%;
+  padding: 5% 10%;
   text-align: center;
 }
 .work_header {
@@ -294,7 +297,7 @@ nav a:hover {
   color: grey;
 }
 .work_filter a:hover {
-  text-decoration: underline;
+  color: black;
 }
 .portfolio {
   display: flex;
@@ -302,7 +305,6 @@ nav a:hover {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: space-between;
-  padding: 80px 0;
 }
 .portfolio img {
   margin: 1% 0;
