@@ -4,8 +4,11 @@ p,a,div {
 b {
   font-weight: 900;
 }
+i {
+  color: orange;
+}
 
-wraper {
+.wraper {
     width: 100%;
 }
 .clearfix::after {
@@ -70,24 +73,17 @@ nav a:hover {
     border-bottom: 2px solid yellow;
 }
 .text_welcom {
-    padding:12% 0;
+    padding-top: 14%;
     text-align: center;
-    font-size: 20px;
-    color: white;
+    font-size: 42px;
+    font-weight: 300;
+    color: grey;
 }
-.text_welcom p {
-    display: inline;
+.text_intro {
+  padding: 1% 0 14% 0;
+  color: lightgrey;
+  font-size: 20px;
 }
-.text__weight {
-  font-weight: 900;
-}
-.text__size {
-  font-size: 36px;
-}
-.text__color {
-  color: yellow;
-}
-
 .circle_arrow {
     display: inline-block;
     margin: 5% 0;
@@ -121,7 +117,7 @@ nav a:hover {
 }
 .display_image {
   padding: 31% 31%;
-  background-image: url(../img/inPC.jpg);
+  background-image: url(../img/inPC.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 62%;
@@ -212,7 +208,7 @@ nav a:hover {
 
 /* S E C T I O N   #3 */
 
-.our_work {
+.our_services {
   padding: 5%;
   text-align: center;
 }
@@ -261,8 +257,53 @@ nav a:hover {
   color: white;
 }
 .client_brand {
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .client_brand img {
   margin: 2%;
+}
+
+/* S E C T I O N    #5 */
+
+.our_work {
+  padding: 5%;
+  text-align: center;
+}
+.work_header {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.work_text {
+  margin-top: 3%;
+  line-height: 24px;
+  font-style: italic;
+  color: grey;
+}
+.work_filter {
+  margin-top: 7%;
+}
+.work_filter p {
+  float: left;
+}
+.work_filter li {
+  float: right;
+  padding: 10px;
+}
+.work_filter a {
+  text-decoration: none;
+  color: grey;
+}
+.work_filter a:hover {
+  text-decoration: underline;
+}
+.portfolio {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 80px 0;
+}
+.portfolio img {
+  margin: 1% 0;
 }
