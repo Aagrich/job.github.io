@@ -13,6 +13,23 @@ wraper {
   display: block;
   clear: both;
 }
+hr {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  padding: 10px;
+  border: 0;
+  border-top: 5px solid orange;
+}
+hr::after {
+  display: block;
+  content: "";
+  margin: 0 auto;
+  width: 60px;
+  height: 5px;
+  border: 0;
+  background-color: orange;
+}
 header {
     margin: 0 auto;
     width: auto;
@@ -157,6 +174,7 @@ nav a:hover {
     display: inline-block;
     margin-top: 7%;
     padding-bottom: 2%;
+    font-size: 36px;
     color: white;
 }
 .about__team {
@@ -193,25 +211,34 @@ nav a:hover {
   padding: 5%;
   text-align: center;
 }
-.services_profile {
+.serv_header {
+  padding-bottom: 20px;
+}
+.serv_text {
+  margin: 0 10%;
+  color: grey;
+  font-style: italic;
+  line-height: 22px;
+}
+.serv_profile {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 35px;
     padding-top: 100px;
     width: 16%;
     text-align: center;
 }
-.services_img {
+.serv_img {
     margin: 35px auto;
     width: 120px;
     padding: 30px 0;
     border-radius: 80px;
     border: 6px solid yellow;
 }
-.services_name {
+.serv_name {
     font-weight: 900;
     font-size: 24px;
 }
-.services_subscribe {
+.serv_subscribe {
     margin: 25px 0;
     font-size: 18px;
 }
