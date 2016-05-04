@@ -123,7 +123,7 @@ nav a:hover {
   background-image: url(../img/inPC.png);
   background-repeat: no-repeat;
   background-size: 42%;
-} 
+}
 .about {
    margin: -3% 0 0 58%;
    padding-bottom: 7%;
@@ -322,3 +322,29 @@ nav a:hover {
 .portfolio img {
   margin: 1% 0;
 }
+
+/* S E C T I O N   #6 */
+
+.feedback {
+  background-color: black;
+  padding: 5% 10%;
+  text-align: center;
+}
+.feedback_header {
+  color: white;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.feedback_text {
+  margin: 5% 0 5% 0;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.feedback_autor {
+  margin: 0 0 5% 0;
+  color: lightgrey;
+  font-size: 16px;
+}
+
+/* S E C T I O N    #7 */
