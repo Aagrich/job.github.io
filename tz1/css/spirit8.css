@@ -104,6 +104,7 @@ nav a:hover {
   padding: 5% 15%;
 }
 .shadow_image {
+  float: left;
   background-image: url(../img/shadow.png);
   background-repeat: no-repeat;
   background-size: 59%;
@@ -115,6 +116,7 @@ nav a:hover {
   background-size: 42%;
 }
 .display_image {
+  display: inline-block;
   margin-top: 2%;
   margin-left: 1%;
   background-image: url(../img/inPC.png);
@@ -122,7 +124,7 @@ nav a:hover {
   background-size: 40%;
 } 
 .about {
-  margin-left: 50%;
+   margin: -2% 0 0 50%;
 }
 .header__about {
     font-size: 22px;
