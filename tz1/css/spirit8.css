@@ -348,3 +348,30 @@ nav a:hover {
 }
 
 /* S E C T I O N    #7 */
+
+.contact_us {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.contact_us__header {
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+.contact_us__text {
+  margin: 5% 0;
+  color: grey;
+  font-style: italic;
+}
+.contact_us__input {
+  margin: 5% 0;
+  height: 50%;
+}
+.contact_us__input__signature {
+  color: grey;
+}
+.contact_us__input__signature::after {
+  content: "*";
+  color: red;
+  margin-left: 2px;
+}
