@@ -369,9 +369,26 @@ nav a:hover {
 }
 .contact_us__input__signature {
   color: grey;
+  margin-top: 30px;
+  display: inline-block;
 }
 .contact_us__input__signature::after {
   content: "*";
   color: red;
   margin-left: 2px;
+}
+
+input[name="name"] {
+display: inline-block;
+  width: 40%;
+  color: white;
+}
+input[name="email"] {
+display: inline-block;
+  width: 40%;
+  color: white;
+}
+input[name="message"] {
+  color: white;
+  width:100%;
 }
