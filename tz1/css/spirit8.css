@@ -102,7 +102,7 @@ nav a:hover {
 
 .about_us {
   margin: 0 auto;
-  padding: 5% 10%;
+  padding: 5% 10% 0 10%;
 }
 .shadow_image {
   float: left;
@@ -126,7 +126,7 @@ nav a:hover {
 }
 .about {
    margin: -3% 0 0 58%;
-   padding-bottom: 7%;
+   padding-bottom: 10%;
 }
 .header__about {
     font-size: 22px;
@@ -425,4 +425,27 @@ nav a:hover {
   color: white;
   font-size: 18px;
   padding: 10px 55px;
+}
+
+/*   F O O T E R   */
+
+footer {
+  padding: 60px 10%;
+  background-color: black;
+  text-align: right;
+}
+footer p {
+  display: inline-block;
+  float: left;
+  margin-top: 11px;
+  font-size: 13px;
+  color: grey;
+}
+.social_network {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+.social_network a {
+  margin: 0 5px;
 }
