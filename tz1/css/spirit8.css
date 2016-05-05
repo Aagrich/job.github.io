@@ -350,7 +350,7 @@ nav a:hover {
 /* S E C T I O N    #7 */
 
 .contact_us {
-  padding: 5% 10%;
+  padding: 5% 25%;
   text-align: center;
 }
 
@@ -362,33 +362,67 @@ nav a:hover {
   margin: 5% 0;
   color: grey;
   font-style: italic;
+  font-size: 18px;
+  line-height: 24px;
 }
 .contact_us__input {
   margin: 5% 0;
   height: 50%;
 }
 .contact_us__input__signature {
+  text-align: left;
   color: grey;
-  margin-top: 30px;
-  display: inline-block;
+  margin-bottom: 8px;
 }
 .contact_us__input__signature::after {
   content: "*";
   color: red;
   margin-left: 2px;
 }
-
-input[name="name"] {
-display: inline-block;
-  width: 40%;
-  color: white;
+.contact_us__box {
+  text-align: justify;
 }
-input[name="email"] {
-display: inline-block;
-  width: 40%;
-  color: white;
+.input_name {
+  display: inline-block;
+  width: 47%;
+  float: left;
 }
-input[name="message"] {
-  color: white;
+.input_email {
+  display: inline-block;
+  width: 47%;
+  float: right;
+}
+.input_message {
+  padding-top: 2%;
+  clear: both;
+  height: 50%;
   width:100%;
+}
+.input_name input {
+  padding: 5px 0 5px 5px;
+  width: 100%;
+  line-height: 26px;
+  font-size: 20px;
+}
+.input_email input {
+  padding: 5px 0 5px 5px;
+  width: 100%;
+  line-height: 26px;
+  font-size: 20px;
+}
+.input_message textarea {
+  padding: 5px 0 5px 5px;
+  width: 100%;
+  line-height: 22px;
+  font-size: 20px;
+}
+.contact_us button {
+  display: block;
+  float: right;
+  margin: 5% 0;
+  border: 0;
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  padding: 10px 55px;
 }
