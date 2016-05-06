@@ -199,6 +199,7 @@ nav a:hover:after  {
 }
 .about button {
     padding: 15px 25px;
+    cursor: pointer;
     border: 1px solid #7f7f7f;
     border-radius: 2px;
     background-color: white;
@@ -471,6 +472,7 @@ nav a:hover:after  {
   display: block;
   float: right;
   margin: 5% 0;
+  cursor: pointer;
   border: 0;
   background-color: #fcac45;
   font-family: "Open Sans Semibold";
