@@ -485,7 +485,7 @@ nav a:hover:after  {
 
 footer {
   padding: 60px 10%;
-  background-color: black;
+  background-color: #222;
   text-align: right;
 }
 footer p {
