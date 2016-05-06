@@ -1,12 +1,25 @@
+@import "fonts.css";
+
 p,a,div {
     	font-family: 'Open Sans', sans-serif;
 }
 b {
-  font-weight: 900;
-  font-style: normal;
+  font-family: "Open Sans Bold";
 }
 i {
-  color: orange;
+  font-family: "Open Sans Italic";
+}
+s {
+  text-decoration: none;
+  font-family: "Open Sans Semibold";
+}
+u {
+  font-family: 'Open Sans Light';
+  text-decoration: none;
+}
+tt {
+  text-decoration: none;
+  color: #fcac45;
 }
 
 .wraper {
@@ -65,6 +78,7 @@ nav a {
     display: inline-block;
     padding: 5px 3px 5px 3px;
     margin: 0 25%;
+    font-family: 'Open Sans Bold';
     font-size: 12px;
     width: 103%;
     text-decoration: none;
@@ -78,11 +92,11 @@ nav a:hover {
     text-align: center;
     font-size: 42px;
     font-weight: 300;
-    color: grey;
+    color: #999999;
 }
 .text_intro {
   padding: 1% 0 16% 0;
-  color: lightgrey;
+  color: #d7d7d7;
   font-size: 20px;
 }
 .circle_arrow {
@@ -91,7 +105,7 @@ nav a:hover {
     padding: 22px;
     width: 0;
     border-radius: 24px;
-    border:2px solid white;
+    border:2px solid #c8c8c8;
     background-image: url(../img/arrow.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -133,7 +147,7 @@ nav a:hover {
 }
 .header__about {
     font-size: 22px;
-    color: grey;
+    color: #636363;
 }
 .header__second_about {
     display: inline-block;
@@ -152,7 +166,7 @@ nav a:hover {
 .about_text {
     width: 88%;
     font-size: 16px;
-    color: grey;
+    color: #6c6c6c;
     line-height: 20px;
 }
 .about ul{
@@ -160,21 +174,22 @@ nav a:hover {
 }
 .about li {
     margin: 10px 0;
-    font-style: italic;
-    color: grey;
+    color: #5a5a5a;
 }
 .about li:before {
     content: "";
     display: inline-block;
     margin-right: 10px;
-    border: 7px double black;
+    border: 7px double #5a5a5a;
     border-radius: 7px;
 }
 .about button {
     padding: 15px 25px;
-    border: 1px solid grey;
+    border: 1px solid #7f7f7f;
     border-radius: 2px;
     background-color: white;
+    color: #7f7f7f;
+    font-family: 'Open Sans Semibold';
 }
 .about button:before {
   content: url(../img/bag.png);
@@ -233,35 +248,39 @@ nav a:hover {
   text-align: center;
 }
 .serv_header {
+  font-size: 36px;
   padding-bottom: 20px;
 }
 .serv_text {
   margin: 0 10%;
-  color: grey;
-  font-style: italic;
-  line-height: 22px;
+  color: #6c6c6c;
+  font-family: 'Open Sans Italic';
+  line-height: 20px;
 }
 .serv_profile {
     display: inline-block;
-    margin: 0 35px;
+    margin: 0 1%;
     padding-top: 100px;
-    width: 16%;
+    width: 200px;
     text-align: center;
 }
 .serv_img {
     margin: 35px auto;
-    width: 120px;
-    padding: 30px 0;
+    width: 110px;
+    height: 110px;
     border-radius: 80px;
     border: 6px solid orange;
 }
+.serv_img img {
+ margin: 25% 0;
+}
 .serv_name {
-    font-weight: 900;
+    font-family: 'Open Sans Semibold';
     font-size: 24px;
 }
 .serv_subscribe {
     margin: 25px 0;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 /* S E C T I O N   #4 */
