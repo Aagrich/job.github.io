@@ -199,9 +199,10 @@ nav a:hover {
     display: inline-block;
     margin: 0 25px;
     padding-top: 100px;
-    width: 16%;
+    width: 200px;
     text-align: center;
     color: white;
+    vertical-align: top;
 }
 .teamate_img {
     margin: 35px auto;
